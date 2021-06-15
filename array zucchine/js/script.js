@@ -68,3 +68,17 @@ console.log(zucchineGrandi);
 
 
 // Infine stampa separatamente quanto pesano i due gruppi di zucchine
+var pesoPiccole = 0;
+
+for (var i = 0; i < zucchinePiccole.length; i++){
+    pesoPiccole = pesoPiccole + zucchinePiccole[i].peso;
+}
+
+console.log('Peso zucchine piccole: ' + pesoPiccole + ' '+ 'kg');
+
+var pesoGrandi = 0;
+
+for (var i = 0; i < zucchineGrandi.length; i++){
+    pesoGrandi = pesoGrandi + zucchineGrandi[i].peso;
+}
+console.log('Peso zucchine grandi:' + pesoGrandi + ' ' + 'kg');
